@@ -36,6 +36,7 @@ module.exports = {
       'heading-l-desktop': '4.375rem',
       'heading-m-desktop': '3.25rem',
       text: '1.625rem',
+      'body-m': '1.75rem',
       'heading-s': '2.5rem'
     },
     borderRadius: {
