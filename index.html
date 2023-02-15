@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Vite App</title>
+    <title>Frontend Mentor | Single-page design portfolio</title>
   </head>
   <body class="bg-cream text-brown tablet:text-body-m">
     <header class="desktop:container px-4 tablet:px-[2.375rem] box-content mt-4 tablet:mt-[2.125rem]">
@@ -34,7 +35,7 @@
           <img src="/pattern-apps.svg" alt="Apps pattern" class="self-end" />
           <span>Apps</span>
         </div>
-        <div class="bg-red rounded-sm col-span-2 p-6 flex flex-col justify-between items-start">
+        <div class="bg-red rounded-sm col-span-2 p-6 flex flex-col justify-between items-start desktop:order-1">
           <img src="/pattern-illustrations.svg" alt="Illustrations pattern" class="self-end" />
           <span>Illustrations</span>
         </div>
@@ -42,14 +43,14 @@
           <img src="/pattern-photography.svg" alt="Photography pattern" class="self-end" />
           <span>Photography</span>
         </div>
-        <div class="bg-purple rounded-sm col-span-2 p-6 flex flex-col justify-between items-start">
+        <div class="bg-purple rounded-sm col-span-2 p-6 flex flex-col justify-between items-start desktop:order-2">
           <img src="/pattern-motion-graphics.svg" alt="Motion Graphics pattern" class="self-end" />
           <span>Motion Graphics</span>
         </div>
       </div>
     </section>
     <section class="desktop:container px-4 tablet:px-[2.375rem] box-content mt-[6.25rem] tablet:mt-[7.5rem] flex flex-col items-center gap-10 tablet:flex-row tablet:justify-between">
-      <img src="/image-amy.webp" class="w-[300px] tablet:w-[364px] desktop:w-[445px]" />
+      <img src="/image-amy.webp" class="w-[300px] tablet:w-[364px] desktop:w-[445px]" alt="Person avatar" />
       <div class="text-center tablet:text-left tablet:max-w-[540px]">
         <h2 class="text-heading-m leading-default text-black font-bold tablet:text-heading-s tablet:leading-heading-s desktop:text-heading-m-desktop desktop:leading-heading-m-desktop">I’m Amy, and I’d love to work on your next project</h2>
         <p class="mt-6 leading-text">I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</p>
@@ -65,7 +66,7 @@
         <img src="/image-slide-4.jpg" class="w-[270px] tablet:w-[540px] rounded-md transition-transform" alt="Slide 4" />
         <img src="/image-slide-5.jpg" class="w-[270px] tablet:w-[540px] rounded-md transition-transform" alt="Slide 5" />
       </div>
-      <div class="mt-8 flex justify-center gap-4">
+      <div class="mt-8 tablet:mt-14 flex justify-center gap-4">
         <button class="bg-black w-[64px] h-[64px] rounded-full flex justify-center items-center hover:bg-blue transition-colors" id="prev-btn" aria-label="Previous image">
           <img src="/icon-arrow-left.svg" alt="Arrow left" aria-hidden="true" />
         </button>

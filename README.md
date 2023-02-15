@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/singlepage-design-portfolio-using-tailwind-css-TingbiQmM6](https://www.frontendmentor.io/solutions/singlepage-design-portfolio-using-tailwind-css-TingbiQmM6)
+- Live Site URL: [https://design-portfolio-tailwind.netlify.app/](https://design-portfolio-tailwind.netlify.app/)
 
 ## My process
 
