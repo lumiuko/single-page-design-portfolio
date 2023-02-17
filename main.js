@@ -16,14 +16,18 @@ function calculateTransform() {
 }
 
 function goBack() {
-  if (currentPos <= minPos) return
   currentPos--
+  if (currentPos < minPos) {
+    currentPos = maxPos
+  }
   calculateTransform()
 }
 
 function goNext() {
-  if (currentPos >= maxPos) return
   currentPos++
+  if (currentPos > maxPos) {
+    currentPos = minPos
+  }
   calculateTransform()
 }
 
