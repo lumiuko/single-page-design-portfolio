@@ -45,12 +45,8 @@ module.exports = {
       sm: '0.5rem',
       full: '50%'
     },
-    screens: {
-      tablet: '768px',
-      desktop: '1110px'
-    },
-    container: {
-      center: true
+    maxWidth: {
+      container: '1110px'
     }
   },
   plugins: []

@@ -10,84 +10,90 @@
     <link rel="stylesheet" href="style.css">
     <title>Frontend Mentor | Single-page design portfolio</title>
   </head>
-  <body class="bg-cream text-brown tablet:text-body-m leading-text tablet:leading-body-m">
-    <header class="desktop:container px-4 tablet:px-[2.375rem] box-content mt-4 tablet:mt-[2.125rem]">
-      <div class="flex justify-between items-center">
-        <img src="/logo.svg" class="w-[48px] tablet:w-[64px]" alt="Logo" />
-        <a href="#" class="bg-black text-cream py-2 px-7 text-btn rounded-lg leading-default tablet:text-default tablet:py-[0.875rem] tablet:px-11 font-bold hover:bg-blue transition-colors">Free Consultation</a>
+  <body class="bg-cream text-brown md:text-body-m leading-text md:leading-body-m">
+    <header class="px-4 mt-4 md:px-10 md:mt-[2.125rem]">
+      <div class="max-w-container mx-auto flex justify-between items-center">
+        <img src="/logo.svg" class="w-[48px] md:w-[64px]" alt="Logo" />
+        <a href="#" class="bg-black text-cream py-2 px-7 text-btn rounded-lg leading-default md:text-default md:py-[0.875rem] md:px-11 font-bold hover:bg-blue transition-colors">Free Consultation</a>
       </div>
     </header>
-    <section class="desktop:container px-4 tablet:px-[2.375rem] box-content mt-8 tablet:mt-16 desktop:mt-[4.125rem]">
-      <div class="text-center">
-        <h1 class="font-bold text-black text-heading-l leading-heading-l tablet:text-heading-s-tablet desktop:text-heading-l-desktop">Design solutions made easy</h1>
-        <p class="mt-4 max-w-[285px] tablet:max-w-[573px] desktop:max-w-[730px] mx-auto tablet:mt-7 desktop:mt-6">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
-      </div>
-      <div class="mt-8 tablet:mt-16 desktop:mt-20 text-white font-bold text-card grid grid-cols-2 tablet:grid-cols-4 desktop:grid-cols-6 auto-rows-[182px] tablet:grid-rows-[182px_158px] gap-6">
-        <div class="bg-blue rounded-sm col-span-2 row-span-2 p-6 flex flex-col justify-between items-start">
-          <img src="/pattern-graphic-design.svg" alt="Graphic design pattern" class="self-end" />
-          <span>Graphic Design</span>
+    <main>
+      <section class="px-4 mt-8 md:mt-16 md:px-10 xl:mt-[4.125rem]">
+        <div class="max-w-container mx-auto">
+          <div class="text-center">
+            <h1 class="font-bold text-black text-heading-l leading-heading-l md:text-heading-s-tablet xl:text-heading-l-desktop">Design solutions made easy</h1>
+            <p class="mt-4 px-[1.875rem] max-w-[573px] xl:max-w-[730px] mx-auto md:px-0 md:mt-7 xl:mt-6">With over ten years of experience in various design disciplines, I’m your one-stop shop for your design needs.</p>
+          </div>
+          <div class="mt-8 md:mt-16 xl:mt-20 text-white font-bold text-card grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 auto-rows-[182px] md:grid-rows-[182px_158px] gap-6">
+            <div class="bg-blue rounded-sm col-span-2 row-span-2 p-6 flex flex-col justify-between items-start">
+              <img src="/pattern-graphic-design.svg" alt="Graphic design pattern" class="self-end" />
+              <span>Graphic Design</span>
+            </div>
+            <div class="bg-yellow rounded-sm p-6 flex flex-col justify-between items-start">
+              <img src="/pattern-ui-ux.svg" alt="UI/UX pattern" class="self-end" />
+              <span>UI/UX</span>
+            </div>
+            <div class="bg-pink rounded-sm p-6 flex flex-col justify-between items-start">
+              <img src="/pattern-apps.svg" alt="Apps pattern" class="self-end" />
+              <span>Apps</span>
+            </div>
+            <div class="bg-red rounded-sm col-span-2 p-6 flex flex-col justify-between items-start xl:order-1">
+              <img src="/pattern-illustrations.svg" alt="Illustrations pattern" class="self-end" />
+              <span>Illustrations</span>
+            </div>
+            <div class="bg-cyan rounded-sm col-span-2 p-6 flex flex-col justify-between items-start">
+              <img src="/pattern-photography.svg" alt="Photography pattern" class="self-end" />
+              <span>Photography</span>
+            </div>
+            <div class="bg-purple rounded-sm col-span-2 p-6 flex flex-col justify-between items-start xl:order-2">
+              <img src="/pattern-motion-graphics.svg" alt="Motion Graphics pattern" class="self-end" />
+              <span>Motion Graphics</span>
+            </div>
+          </div>
         </div>
-        <div class="bg-yellow rounded-sm p-6 flex flex-col justify-between items-start">
-          <img src="/pattern-ui-ux.svg" alt="UI/UX pattern" class="self-end" />
-          <span>UI/UX</span>
+      </section>
+      <section class="px-4 mt-[6.25rem] md:mt-[7.5rem] xl:mt-[8.5rem] md:px-10">
+        <div class="max-w-container mx-auto flex flex-col items-center gap-10 md:gap-[4.25rem] md:flex-row md:justify-between">
+          <img src="/image-amy.webp" class="w-[300px] md:w-[364px] md:ml-[-5.25rem] lg:ml-0 xl:w-[445px]" alt="Person avatar" />
+          <div class="text-center md:text-left md:max-w-[540px]">
+            <h2 class="text-heading-m leading-default text-black font-bold md:text-heading-s md:leading-heading-s xl:text-heading-m-desktop xl:leading-heading-m-desktop">I’m Amy, and I’d love to work on your next project</h2>
+            <p class="mt-6 xl:mt-8">I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</p>
+            <a href="#" class="bg-red inline-block text-cream mt-6 xl:mt-8 py-2 px-7 text-btn rounded-lg leading-default md:text-default md:py-[0.875rem] md:px-11 font-bold hover:bg-yellow transition-colors">Free Consultation</a>
+          </div>
         </div>
-        <div class="bg-pink rounded-sm p-6 flex flex-col justify-between items-start">
-          <img src="/pattern-apps.svg" alt="Apps pattern" class="self-end" />
-          <span>Apps</span>
+      </section>
+      <section class="mt-[6.25rem] md:mt-[7.5rem] xl:mt-[5.5rem]">
+        <h2 class="text-heading-m text-black font-bold leading-default text-center md:text-heading-s md:leading-heading-s">My Work</h2>
+        <div class="flex justify-center overflow-hidden mt-8 md:mt-14 gap-8" id="showcase">
+          <img src="/image-slide-1.jpg" class="w-[270px] md:w-[540px] rounded-md transition-transform" alt="Slide 1" />
+          <img src="/image-slide-2.jpg" class="w-[270px] md:w-[540px] rounded-md transition-transform" alt="Slide 2" />
+          <img src="/image-slide-3.jpg" class="w-[270px] md:w-[540px] rounded-md transition-transform" alt="Slide 3" />
+          <img src="/image-slide-4.jpg" class="w-[270px] md:w-[540px] rounded-md transition-transform" alt="Slide 4" />
+          <img src="/image-slide-5.jpg" class="w-[270px] md:w-[540px] rounded-md transition-transform" alt="Slide 5" />
         </div>
-        <div class="bg-red rounded-sm col-span-2 p-6 flex flex-col justify-between items-start desktop:order-1">
-          <img src="/pattern-illustrations.svg" alt="Illustrations pattern" class="self-end" />
-          <span>Illustrations</span>
+        <div class="mt-8 md:mt-14 flex justify-center gap-4">
+          <button class="bg-black w-[64px] h-[64px] rounded-full flex justify-center items-center hover:bg-blue transition-colors" id="prev-btn" aria-label="Previous image">
+            <img src="/icon-arrow-left.svg" alt="Arrow left" aria-hidden="true" />
+          </button>
+          <button class="bg-black w-[64px] h-[64px] rounded-full flex justify-center items-center hover:bg-blue transition-colors" id="next-btn" aria-label="Next image">
+            <img src="/icon-arrow-right.svg" alt="Arrow right" aria-hidden="true" />
+          </button>
         </div>
-        <div class="bg-cyan rounded-sm col-span-2 p-6 flex flex-col justify-between items-start">
-          <img src="/pattern-photography.svg" alt="Photography pattern" class="self-end" />
-          <span>Photography</span>
+      </section>
+      <section class="px-4 mt-[6.25rem] md:mt-[7.5rem] xl:mt-[5.5rem] mb-10 md:mb-14 md:px-10">
+        <div class="max-w-container mx-auto bg-black px-6 py-12 text-white rounded-md flex flex-col items-center gap-6 md:px-[4.75rem] md:py-[3.75rem] xl:flex-row xl:justify-between xl:px-16 xl:py-20">
+          <div class="text-center xl:text-left xl:max-w-[540px]">
+            <h2 class="text-heading-m font-bold leading-default md:text-heading-s md:leading-heading-s xl:text-heading-m-desktop xl:leading-heading-m-desktop">Book a call with me</h2>
+            <p class="mt-6">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+          </div>
+          <a href="#" class="bg-red inline-block text-cream py-2 px-7 text-btn rounded-lg leading-default md:text-default md:py-[0.875rem] md:px-11 font-bold hover:bg-yellow transition-colors xl:mr-8">Free Consultation</a>
         </div>
-        <div class="bg-purple rounded-sm col-span-2 p-6 flex flex-col justify-between items-start desktop:order-2">
-          <img src="/pattern-motion-graphics.svg" alt="Motion Graphics pattern" class="self-end" />
-          <span>Motion Graphics</span>
-        </div>
-      </div>
-    </section>
-    <section class="desktop:container px-4 tablet:px-[2.375rem] box-content mt-[6.25rem] tablet:mt-[7.5rem] desktop:mt-[8.5rem] flex flex-col items-center gap-10 tablet:flex-row tablet:justify-between">
-      <img src="/image-amy.webp" class="w-[300px] tablet:w-[364px] desktop:w-[445px]" alt="Person avatar" />
-      <div class="text-center tablet:text-left tablet:max-w-[540px]">
-        <h2 class="text-heading-m leading-default text-black font-bold tablet:text-heading-s tablet:leading-heading-s desktop:text-heading-m-desktop desktop:leading-heading-m-desktop">I’m Amy, and I’d love to work on your next project</h2>
-        <p class="mt-6 desktop:mt-8">I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations to complete mobile apps. I’m also handy with a camera!</p>
-        <a href="#" class="bg-red inline-block text-cream mt-6 desktop:mt-8 py-2 px-7 text-btn rounded-lg leading-default tablet:text-default tablet:py-[0.875rem] tablet:px-11 font-bold hover:bg-yellow transition-colors">Free Consultation</a>
-      </div>
-    </section>
-    <section class="mt-[6.25rem] tablet:mt-[7.5rem] desktop:mt-[5.5rem]">
-      <h2 class="text-heading-m text-black font-bold leading-default text-center tablet:text-heading-s tablet:leading-heading-s">My Work</h2>
-      <div class="flex justify-center overflow-hidden mt-8 tablet:mt-14 gap-8" id="showcase">
-        <img src="/image-slide-1.jpg" class="w-[270px] tablet:w-[540px] rounded-md transition-transform" alt="Slide 1" />
-        <img src="/image-slide-2.jpg" class="w-[270px] tablet:w-[540px] rounded-md transition-transform" alt="Slide 2" />
-        <img src="/image-slide-3.jpg" class="w-[270px] tablet:w-[540px] rounded-md transition-transform" alt="Slide 3" />
-        <img src="/image-slide-4.jpg" class="w-[270px] tablet:w-[540px] rounded-md transition-transform" alt="Slide 4" />
-        <img src="/image-slide-5.jpg" class="w-[270px] tablet:w-[540px] rounded-md transition-transform" alt="Slide 5" />
-      </div>
-      <div class="mt-8 tablet:mt-14 flex justify-center gap-4">
-        <button class="bg-black w-[64px] h-[64px] rounded-full flex justify-center items-center hover:bg-blue transition-colors" id="prev-btn" aria-label="Previous image">
-          <img src="/icon-arrow-left.svg" alt="Arrow left" aria-hidden="true" />
-        </button>
-        <button class="bg-black w-[64px] h-[64px] rounded-full flex justify-center items-center hover:bg-blue transition-colors" id="next-btn" aria-label="Next image">
-          <img src="/icon-arrow-right.svg" alt="Arrow right" aria-hidden="true" />
-        </button>
-      </div>
-    </section>
-    <section class="desktop:container px-4 tablet:px-[2.375rem] box-content mt-[6.25rem] tablet:mt-[7.5rem] desktop:mt-[5.5rem] mb-10 tablet:mb-14">
-      <div class="bg-black px-6 py-12 text-white rounded-md flex flex-col items-center gap-6 tablet:px-[4.75rem] tablet:py-[3.75rem] desktop:flex-row desktop:justify-between desktop:px-16 desktop:py-20">
-        <div class="text-center desktop:text-left desktop:max-w-[540px]">
-          <h2 class="text-heading-m font-bold leading-default tablet:text-heading-s tablet:leading-heading-s desktop:text-heading-m-desktop desktop:leading-heading-m-desktop">Book a call with me</h2>
-          <p class="mt-6">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
-        </div>
-        <a href="#" class="bg-red inline-block text-cream py-2 px-7 text-btn rounded-lg leading-default tablet:text-default tablet:py-[0.875rem] tablet:px-11 font-bold hover:bg-yellow transition-colors desktop:mr-8">Free Consultation</a>
-      </div>
-    </section>
-    <footer class="desktop:container px-4 tablet:px-[2.375rem] box-content mb-8 tablet:mb-14 desktop:mb-16">
-      <div class="flex justify-between items-center">
-        <img src="/logo.svg" class="w-[48px] tablet:w-[64px]" alt="Logo" />
-        <a href="#" class="bg-black text-cream py-2 px-7 text-btn rounded-lg leading-default tablet:text-default tablet:py-[0.875rem] tablet:px-11 font-bold hover:bg-blue transition-colors">Free Consultation</a>
+      </section>
+    </main>
+    <footer class="px-4 mb-8 md:mb-14 xl:mb-16 md:px-10">
+      <div class="max-w-container mx-auto flex justify-between items-center">
+        <img src="/logo.svg" class="w-[48px] md:w-[64px]" alt="Logo" />
+        <a href="#" class="bg-black text-cream py-2 px-7 text-btn rounded-lg leading-default md:text-default md:py-[0.875rem] md:px-11 font-bold hover:bg-blue transition-colors">Free Consultation</a>
       </div>
     </footer>
     <script type="module" src="/main.js"></script>
